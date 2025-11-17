@@ -1,0 +1,85 @@
+Folder PATH listing
+Volume serial number is 2ADE-AA60
+D:.
+|   db.sqlite3
+|   manage.py
+|   project_structure.txt
+|   
+
++---core
+|   |   admin.py
+|   |   apps.py
+|   |   models.py
+|   |   tests.py
+|   |   views.py
+|   |   __init__.py
+|   |   
+|           __init__.py
+|           
++---customers
+|   |   admin.py
+|   |   apps.py
+|   |   models.py
+|   |   serializer.py
+|   |   tests.py
+|   |   urls.py
+|   |   views.py
+|   |   __init__.py
+|   |   
+|           __init__.py
+|           
++---labor
+|   |   admin.py
+|   |   apps.py
+|   |   models.py
+|   |   serializer.py
+|   |   tests.py
+|   |   urls.py
+|   |   views.py
+|   |   __init__.py
+|   |   
+|           __init__.py
+|           
++---mirzajanpoor
+|   |   asgi.py
+|   |   settings.py
+|   |   urls.py
+|   |   wsgi.py
+|   |   __init__.py
+|   |   
+|           settings.cpython-311.pyc
+|           urls.cpython-311.pyc
+|           wsgi.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           
++---orders
+|   |   admin.py
+|   |   apps.py
+|   |   models.py
+|   |   selector.py
+|   |   serializer.py
+|   |   service.py
+|   |   tests.py
+|   |   urls.py
+|   |   views.py
+|   |   __init__.py
+|   |   
+|           __init__.py
+|           
++---products
+|   |   admin.py
+|   |   apps.py
+|   |   models.py
+|   |   serializer.py
+|   |   tests.py
+|   |   urls.py
+|   |   views.py
+|   |   __init__.py
+|   |   
+|           __init__.py
+|           
+        settings.cpython-311.pyc
+        urls.cpython-311.pyc
+        wsgi.cpython-311.pyc
+        __init__.cpython-311.pyc
+        

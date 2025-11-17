@@ -35,7 +35,11 @@ urlpatterns = [
         "v1/",
         include(
             [
-                path("api/", include("api.urls")),
+                # path("api/", include("api.urls")),
+                path("c/", include("customers.urls")),
+                path("p/", include("products.urls")),
+                path("o/", include("orders.urls")),
+                path("l/", include("labor.urls")),
                 path(
                     "swagger/schema/",  # Removed the leading slash
                     schema_view.with_ui("swagger", cache_timeout=0),

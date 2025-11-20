@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     "core",
     "django_filters",
     "drf_yasg",
+    "access",
+    "colorfield",
+    "admin_interface",
+    # "core.apps.CoreConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -153,3 +157,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:4200",
     "http://127.0.0.1:5500",
 ]
+
+
+AUTH_USER_MODEL = "access.User"
